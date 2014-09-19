@@ -1,0 +1,54 @@
+body {
+    background: #acc;
+}
+
+.container {
+    width: 960px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+    padding: 20px;
+}
+
+div {
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.header, .footer {
+    padding: 10px;
+    color: #fff;
+    background: #759;
+}
+
+h1 {
+    color: #c00;
+}
+
+.friends, .wall {
+    padding: 10px;
+    width: 45%;
+}
+
+.friends {
+    float: left;
+    background-color: #fcc;
+}
+
+.wall {
+    float: right;
+    background-color: #cfc;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    font-weight: bold;
+    color: #04c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

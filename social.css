@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+    margin: 0px auto;
     width: 960px;
     font-family: Helvetica, Arial, sans-serif;
     background: #fff;
@@ -24,6 +25,10 @@ h1 {
     color: #c00;
 }
 
+h3 {
+    color: #777;
+}
+
 .friends, .wall {
     padding: 10px;
     width: 45%;
@@ -34,9 +39,23 @@ h1 {
     background-color: #fcc;
 }
 
+.friends a {
+    padding: 10px;
+    display: block;
+}
+
 .wall {
     float: right;
     background-color: #cfc;
+}
+
+.wall div {
+    padding: 10px;
+    background-color: #eee;
+}
+
+.wall span {
+    font-family: cursive;
 }
 
 .clear {
